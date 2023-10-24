@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>Cinecritic</title>
+</head>
+<body>
+    <header>
+        <div id="container">
+               <h1> Cinecritic</h1>
+               <img id="logo" src="imagens/Logo.png">
+              </div>  
+        
+       </header> 
+            <nav> 
+               <a id="menu" href="index.html">Home</a>
+               <a id="menu" href="filmes.html">Filmes</a>
+               <a id="menu" href="series.html">Séries</a>
+    
+              
+    </nav>  
+    <main>
+          <section>
+           <form action="https://api.staticforms.xyz/submit" method="POST">
+           
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu Nome" required>
+            <label>Email</label>
+             <input type="email" name="email" placeholder="Digite seu e-mail" required>
+             <label>Mensagem</label>
+             <textarea name="message" cols="30" rows="10" placeholder="Digite sua Mensagem" required></textarea>
+             <button type="submit" >Enviar</button>
+            
+             <input type="hidden" name="accessKey" value="f241578e-a271-4500-9fd2-9171c7d3bb1d">
+             <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+            </form>
+
+          </section>
+        
+    </main>
+         
+    
+</body>
+</html>

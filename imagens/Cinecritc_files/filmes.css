@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+@import url(@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Lilita+One&display=swap'););
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+/*
+#c5ebd6
+#83e1ad
+#3ddc84
+#2fa866
+#1a5c37
+#063d1e
+*/
+
+:root {
+    
+    --cor1:#E7ECEF;
+     --cor2:#A3CEF1;
+     --cor3:#bebebd;
+     --cor4:#6096BA;
+     --cor5:#274C77;
+     --cor6:#d1d1ce;
+     
+
+     --fonte-padrao:arial, verdana, helvetica, sans-serif;
+     --fonte-destaque: 'Roboto Condensed', cursive;
+     --fonte-android:'Android', cursive;
+    }
+
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+        min-height: 100px;
+        text-align: center;
+        padding: 30px;
+    }
+
+    header > h1 {
+        margin-bottom: 20px;
+        color:var(--cor2);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 100px;
+        font-weight: normal;
+        text-shadow: 2px 2px 0px rgb(0, 0, 0);
+    }
+
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        
+        nav { 
+       background-color:var(--cor2);
+       height: 40px;
+       text-align: center;
+        margin-top: 50px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+       margin-bottom: 40px;
+       margin-top:10px;
+       box-sizing:border-box var(--cor5);
+    
+
+        }
+        
+        nav a {
+        color:black;
+        text-decoration: none;
+        padding: 0px 50px 10px 0px;
+        font-size: 25px;
+        position: relative;
+        
+        }
+        
+        nav a::after {
+            content: " ";
+            width: 50%;
+            height: 3px;
+            background-color:var(--cor2);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transition: color;
+        }
+        
+            nav a:hover::after {
+            background-color:var(--cor5);
+        }
+
+    main {
+        min-width: 100px;
+        max-width: 800px;
+        margin: auto;
+        margin-bottom: 30px;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgb(7, 7, 7);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+         background-color:var(--cor6);
+    }
+
+    main a {
+        text-decoration: none ;
+        font-weight: bold;
+        color: var(--cor5);
+        background-color: var(--cor1);
+        padding: 2px 6px;
+    }
+
+    main a:hover {
+        text-decoration: underline;
+        color:var(--cor3);
+
+    }
+
+    main h1 {
+        margin-bottom: 20px;
+        color:var(--cor5);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 90px;
+        font-weight: normal;
+        text-shadow: 2px 2px 0px rgb(224, 217, 217);
+        
+    }
+
+    main h2 {
+        margin-bottom: 20px;
+        color:var(--cor5);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: normal;
+        text-shadow: 2px 2px 0px rgb(224, 217, 217);
+          
+    }
+
+    body {
+    background-color: var(--cor3);
+}
+
+.f-terror {
+           
+    padding: 4px 10px 60px 15px;
+    width: 200px;
+    margin: 30px 50px 0px 80px ; 
+    border: 70px;
+    height: 0px;
+    background-color: rgb(49, 45, 45);
+    color: rgba(255, 15, 15, 0.733);
+    border: 10px solid rgba(197, 16, 16, 0.747);
+    border-radius: 30px;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+
+ }
+
+ .f-suspense {
+     padding: 7px 210px 60px 5px;
+    width: 200px;
+    margin:30px 50px 0px 80px; 
+    border: 70px;
+    height: 0px;
+    background-color: rgb(199, 10, 10);
+    color: rgba(7, 6, 6, 0.733);
+    border: 10px solid rgb(8, 8, 8);
+    border-radius: 30px;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     
+ }
+ .f-romance {
+     padding: 3px 210px 60px 8px;
+    width: 200px;
+    margin: 30px 50px 0px 80px; 
+    border: 70px;
+    height: 0px;
+    background-color:rgb(255, 120, 143);
+    color:rgb(255, 242, 242);
+    border:  10px  solid  rgb(240, 71, 99) ;
+    border-radius: 30px;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+      
+ }
+
+ .f-drama {
+     
+    padding:  10px 160px 60px 10px;
+    width: 200px;
+    margin:30px 50px 0px 80px; 
+    border: 70px;
+    height: 0px;
+    background-color: rgb(166, 186, 202);
+    color: rgb(0, 0, 0);
+    border:  10px  solid rgb(129, 129, 129);
+    border-radius: 30px;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+  
+ }
+
+ .f-animes {
+    padding:  5px 175px 60px 15px;
+    width: 200px;
+    margin: 30px 50px 0px 80px; 
+    border: 70px;
+    height: 0px;
+    background-color: rgb(166, 186, 202);
+    color: rgb(0, 0, 0);
+    border:  10px  solid rgb(129, 129, 129);
+    border-radius: 30px;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+      
+ }
+
+ .f-comedia {
+    padding:  10px 280px 80px 10px;
+    width: 200px;
+    margin: 30px 50px 0px 80px; 
+    border: 70px;
+    height: 0px;
+    background-color: rgb(166, 186, 202);
+    color: rgb(0, 0, 0);
+    border:  10px  solid rgb(129, 129, 129);
+    border-radius: 30px;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+       
+ }
+
+ .f-acao { 
+     padding:  10px 1px  80px 5px;
+    width: 200px;
+    margin: 30px 50px 0px 80px; 
+    border: 70px;
+    height: 0px;
+    background-color: rgb(166, 186, 202);
+    color: rgb(0, 0, 0);
+    border:  10px  solid rgb(129, 129, 129);
+    border-radius: 30px;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+       
+ }
+
+ .f-fic { 
+    padding:  10px 290px 166px 10px;
+    width: 200px;
+    margin: 30px 50px 0px 80px; 
+    border: 70px;
+    height: 0px;
+    background-color: rgb(166, 186, 202);
+    color: rgb(0, 0, 0);
+    border:  10px  solid rgb(129, 129, 129);
+    border-radius: 30px;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+      }
+
+
+
